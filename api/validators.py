@@ -1,13 +1,11 @@
-import datetime as dt
+from datetime import datetime
 
 from django.core.exceptions import ValidationError
 
 
-def validate_title_year(value):
-    current_year = dt.datetime.now().year
-
-    if value > current_year + 20:
+def validate_year(year):
+    current_year = datetime.now().year
+    if year > current_year:
         raise ValidationError(
-            '%(value)s bad year',
-            params={'value': value},
+            f'Год произведения не может быть больше, чем {current_year}!'
         )
