@@ -42,7 +42,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: lindex/yamdb_final:latest
+          tags: lindex1/yamdb_final:latest
   
   deploy:
     if: github.ref == 'refs/heads/master'
@@ -58,7 +58,7 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           stack_file_name: docker-compose.yaml
           script: |
-            sudo docker pull lindex/yamdb_final
+            sudo docker pull lindex1/yamdb_final
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env 
