@@ -9,4 +9,3 @@ def validate_year(year):
         raise ValidationError(
             f'Год произведения не может быть больше, чем {current_year}!'
         )
-    
