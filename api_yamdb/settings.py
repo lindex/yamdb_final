@@ -10,6 +10,7 @@ DEBUG = os.environ.get('DEBUG')
 ALLOWED_HOSTS = [
     '84.201.181.59',
     'localhost',
+    'web',
 ]
 
 INSTALLED_APPS = [
