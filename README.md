@@ -9,6 +9,7 @@ gunicorn 20.1.0
 http://84.201.181.59/api/v1/
 
 ![yamdb-final workflow](https://github.com/lindex/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+<<<<<<< HEAD
 #######
 
 ## Описание Workflow
@@ -105,3 +106,6 @@ sudo docker-compose exec web python manage.py createsuperuser
 студенты курса Python-разработчик в Яндекс.Практикуме
 - [lindex](https://github.com/lindex/) - Марк
 [mitya888](https://github.com/mitya888/) - Дмитрий
+=======
+######
+>>>>>>> parent of 1d12bed (Update README.md)
