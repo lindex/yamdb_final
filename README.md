@@ -57,7 +57,7 @@ scp docker-compose.yaml <username>@<host>:/home/<username>/docker-compose.yaml
 scp -r nginx/ <username>@<host>:/home/<username>/
 ```
 
-##### Шаг 5. Добавление Github Secrets:
+##### Шаг 5.  Добавление Github Secrets:
 Для работы с Workflow добавьте в Secrets GitHub переменные окружения для работы:
 ```bash
 SECRET_KEY=<SECRET_KEY>
