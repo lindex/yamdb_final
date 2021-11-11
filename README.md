@@ -101,7 +101,7 @@ sudo docker-compose exec web python3 manage.py loaddata fixtures.json
 ```bash
 sudo docker-compose exec web python manage.py createsuperuser
 ```
-## Участники
+### Участники
 студенты курса Python-разработчик в Яндекс.Практикуме
 - [lindex](https://github.com/lindex/) - Марк
 [mitya888](https://github.com/mitya888/) - Дмитрий
