@@ -10,7 +10,7 @@ http://84.201.181.59/api/v1/
 
 ![yamdb-final workflow](https://github.com/lindex/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-#######
+
 
 ## Описание Workflow
 
